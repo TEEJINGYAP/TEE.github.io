@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Booking Page</title>
+    <link rel="stylesheet" href="BK.css">
+    <link rel="stylesheet" href="nav.css">
+    <link rel="stylesheet" href="layout.css">
+    <link rel="icon" href="images/Hotel-logo.png">
+    <body>
+      <div class="header">
+        <a href="Menu.html">
+        <img id="homepagelogo" src="images/Hotel-logo.png" alt="Hotel TARUC-logo" height="110" width="210">
+        </a>
+        <p>Current Date and Time is <span id='date-time'></span>.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Admistrator</p>
+        <script>
+            var dt = new Date();
+            document.getElementById('date-time').innerHTML=dt;
+        </script> 
+        <div id="startyear">
+            <p>Since 2022.</p>
+        </div>
+    </div>
+    <div class="navbar">
+      <a href="Menu.html">Menu</a>
+      <div class="dropdown">
+          <button class="dropbtn">Hotel Information &#9660;
+              <i class="fa fa-caret-down"></i>
+          </button>
+          <div class="dropdownc">
+              <!--Hyperlink directing to the store showing laptops, mouses and keyboards respectively-->
+              <a href="Room.html">Room</a>
+              <a href="Worker.html">Staff</a>
+          </div>
+      </div>
+      <div class="dropdown">
+          <button class="dropbtn">Services &#9660;
+            <i class="fa fa-caret-down"></i>
+          </button>
+          <div class="dropdownc">
+              <a href="BK.html">Booking</a>
+              <a href="PM.html">Promotion</a>
+          </div>
+      </div>
+      <a href="Help.html">Contact</a>
+  </div>
+  <hr>
+        <div class="form">
+        <form action="BookingFin.html">
+            <div class="elem-group">
+              <label for="name">Name</label>
+              <input type="text" id="name" name="visitor_name" placeholder="Chow Dick Man" pattern=[A-Z\sa-z]{3,20} required>
+            </div>
+            <div class="elem-group">
+              <label for="email">E-mail</label>
+              <input type="email" id="email" name="visitor_email" placeholder="Chowdickman@email.com" required>
+            </div>
+            <div class="elem-group">
+              <label for="phone">Phone</label>
+              <input type="tel" id="phone" name="visitor_phone" placeholder="420-101-6969" pattern=(\d{3})-?\s?(\d{3})-?\s?(\d{4}) required>
+            </div>
+            <hr>
+            <div class="elem-group inlined">
+              <label for="adult">Adults</label>
+              <input type="number" id="adult" name="total_adults" placeholder="2" min="1" required>
+            </div>
+            <div class="elem-group inlined">
+              <label for="child">Children</label>
+              <input type="number" id="child" name="total_children" placeholder="2" min="0" required>
+            </div>
+            <div class="elem-group inlined">
+              <label for="checkin-date">Check-in Date</label>
+              <input type="date" id="checkin-date" name="checkin" required>
+            </div>
+            <div class="elem-group inlined">
+              <label for="checkout-date">Check-out Date</label>
+              <input type="date" id="checkout-date" name="checkout" required>
+            </div>
+            <div class="elem-group">
+              <label for="room-selection">Select Room Preference</label>
+              <select id="room-selection" name="room_preference" required>
+                  <option value="">Choose a Room from the List</option>
+                  <option value="vip">VIP</option>
+                  <option value="deluxe">Deluxe</option>
+                  <option value="economic">Economic</option>
+                  <option value="family">Family</option>
+                  <option value="standard">Standard</option>
+              </select>
+            </div>
+            <hr>
+            <div class="elem-group">
+              <label for="message">Anything Else You Would Like To Add?</label>
+              <textarea id="message" name="visitor_message" placeholder="Tell us anything else that might be important."></textarea>
+            </div>
+            <button type="submit">Book The Rooms</button>
+        </form>
+        </div>
+    </body>
+                <div id="footerwrapper">
+                  <div class="footer">
+                      <p>©Hotel TARUC. All Rights Reserved.</p>
+                      <hr>
+                      <div class="frow2">
+                          <ul>
+                            <li><a href="https://www.facebook.com"><img src="images/logo-image1.png" width="3%" height="31px"></a></li>
+                            <li><a href="https://www.whatsapp.com"><img src="images/logo-image2.jpg" width="3%"></a></li>
+                            <li><a href="https://www.instagram.com"><img src="images/logo-image3.jpg" width="3%"></a></li>
+                            <li><a href="https://www.twitter.com"><img src="images/logo-image4.png" width="3%"></a></li>
+                          </ul>
+                      </div>
+                  </div>
+              </div>
+</head>
+</html>

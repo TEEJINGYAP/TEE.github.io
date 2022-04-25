@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Promotion</title>
+    <link rel="stylesheet" href="layout.css">
+    <link rel="stylesheet" href="nav.css">
+    <link rel="stylesheet" href="PMTable.css">
+    <link rel="icon" href="images/Hotel-logo.png">
+    <style> 
+        h3 {
+          color: aqua;
+          position: relative;
+          animation-name: reee;
+          animation-duration: 4s ;
+          animation-iteration-count: infinite;
+          animation-direction: alternate;
+          animation-timing-function: linear;
+        }
+        
+        @keyframes reee {
+          0%   {left:-100px;}
+          25%  {left:-50px;}
+          50%  {left:0px;}
+          75%  {left:50px;}
+          100% {left:100px;}
+        }
+        </style>
+</head>
+<body>
+    <div class="header">
+        <a href="Menu.html">
+        <img id="homepagelogo" src="images/Hotel-logo.png" alt="Hotel TARUC logo" height="110" width="210">
+        </a>
+        <p>Current Date and Time is <span id='date-time'></span>.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Admistrator</p>
+        <script>
+            var dt = new Date();
+            document.getElementById('date-time').innerHTML=dt;
+        </script> 
+        <div id="startyear">
+            <p>Since 2022.</p>
+        </div>
+    </div>
+    <div class="navbar">
+        <a href="Menu.html">Menu</a>
+        <div class="dropdown">
+            <button class="dropbtn">Hotel Information &#9660;
+                <i class="fa fa-caret-down"></i>
+            </button>
+            <div class="dropdownc">
+                <a href="Room.html">Room</a>
+                <a href="Worker.html">Staff</a>
+            </div>
+        </div>
+        <div class="dropdown">
+            <button class="dropbtn">Services &#9660;
+              <i class="fa fa-caret-down"></i>
+            </button>
+            <div class="dropdownc">
+                <a href="BK.html">Booking</a>
+                <a href="PM.html">Promotion</a>
+            </div>
+        </div>
+        <a href="Help.html">Contact</a>
+    </div>
+<hr>
+<h1 style="text-align: center;padding-top: 10px; padding-bottom: 10px;color: hotpink;">We have a Great Promotion during school Holidays and Other promotion during public Holidays!</h1><hr>
+<h3 style="text-align: center; font-size: xx-large; font-family: Arial, Helvetica, sans-serif;padding-top: 20px; padding-bottom: 15px;">Promotion during School Holiday!!!</h3>
+<table id="vertical-1">
+<table border="1">
+    <tr><th colspan="2">Type of Room</th></tr>
+    <tr>
+        <th>Deluxe Room</th>
+        <td rowspan="2">NO Discount</td>
+    </tr>
+    <tr>
+        <th>Vip Room</th>
+    </tr>
+</table>&nbsp;<br><br>
+
+<table border="1">
+    <tr><th colspan="3">Type of Room</th></tr>
+    <tr>
+        <th>Economic Room</th>
+        <td rowspan="3">Discount 30%</td>
+        <td rowspan="3">If Booking >3 Room Discount another 30%</td>
+    </tr>
+    <tr>
+        <th>Standard Room</th>
+    </tr>
+    <tr><th>-</th></tr>
+</table><br><br>
+<table border="1">
+    <tr><th colspan="3">Type of Room</th></tr>
+    <tr>
+        <th>Family Package room</th>
+        <td rowspan="3">Discount 10%</td>
+        <td rowspan="3">Rebate worth RM50 free gift boucer</td>
+    </tr>
+    <tr>
+        <th>-</th>
+    </tr>
+    <tr><th>-</th></tr>
+</table>
+<br>
+<hr>
+<br>
+<h3 style="text-align: center; font-size: xx-large; font-family: Arial, Helvetica, sans-serif;padding-top: 20px; padding-bottom: 15px;">Promotion During Public Holidays!!!</h3>
+<table border="1">
+    <tr><th colspan="3">Type of Room</th></tr>
+    <tr>
+        <th>Deluxe Room</th>
+        <td rowspan="2">50% Discount</td>
+        <td rowspan="2">Free Delivery Services to anywhere,Free worth RM500 voucher and All services and All places FOC!</td>
+    </tr>
+    <tr>
+        <th>Vip Room</th>
+    </tr>
+</table><BR><BR>
+<table border="1">
+    <tr><th colspan="4">Type of Room</th></tr>
+    <tr>
+        <th>Economic Room</th>
+        <td rowspan="3">Discount 50%</td>
+        <td rowspan="3">If Booking >3 Room Discount another 10%</td>
+        <td rowspan="3">All services FOC!</td>
+    </tr>
+    <tr>
+        <th>Standard Room</th>
+    </tr>
+    <tr><th>-</th></tr>
+</table><br><br>
+<table border="1">
+    <tr><th colspan="5">Type of Room</th></tr>
+    <tr>
+        <th>Family Package room</th>
+        <td rowspan="3">Discount 20%</td>
+        <td rowspan="3">Rebate worth RM50 free gift boucer</td>
+        <td rowspan="3">ALL services FOC!</td>
+        <td rowspan="3">Playground&Theme Park Taruc Ticket Only need RM5 !</td>
+    </tr>
+    <tr>
+        <th>-</th>
+    </tr>
+    <tr><th>-</th></tr>
+</table>
+<hr>
+<div id="footerwrapper">
+    <div class="footer">
+        <p>©Hotel TARUC. All Rights Reserved.</p>
+        <hr>
+        <div class="frow2">
+            <ul>
+                <li><a href="https://www.facebook.com"><img src="images/logo-image1.png" width="3%" height="31px"></a></li>
+                <li><a href="https://www.whatsapp.com"><img src="images/logo-image2.jpg" width="3%"></a></li>
+                <li><a href="https://www.instagram.com"><img src="images/logo-image3.jpg" width="3%"></a></li>
+                <li><a href="https://www.twitter.com"><img src="images/logo-image4.png" width="3%"></a></li>
+            </ul>
+        </div>
+    </div>
+</div>
+</body>
+</html>

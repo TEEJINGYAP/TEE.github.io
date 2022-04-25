@@ -1,0 +1,85 @@
+@import url(https://fonts.googleapis.com/css?family=Jaldi:400,700);
+@import url(http://fonts.googleapis.com/css?family=Lato:400,300,300italic,400italic,700,700italic,900);
+@import url('https://fonts.googleapis.com/css?family=Raleway:400,500,600,700,800,900');
+@import url(https://fonts.googleapis.com/css?family=Lato:400,300,700,900);
+@import url(https://fonts.googleapis.com/css?family=Work+Sans:200,300,500,700);
+
+#brandwrapper{
+    background-color: #1e1e1e;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+#specwrapper{
+    background-color: #1e1e1e;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+h2{
+    padding-top: 10px;
+    color: rgb(74, 11, 247);
+    text-align: center;
+    font-family: "Raleway",sans-serif;
+    font-weight: lighter;
+}
+  
+figcaption {
+    text-align: center;
+    color:rgb(252, 187, 7);
+    font-family: "Raleway",sans-serif;
+    font-size: 2em;
+    vertical-align: both;
+}
+
+tr{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+th{
+    color: rgb(252, 124, 5);
+    padding-bottom: 2em;
+    padding-left: 2em;
+    font-family: "Raleway",sans-serif;
+    font-size: 1.5em;
+    padding-right: 2em;
+}
+  
+td{
+    color: #00e1ff;
+    padding-bottom: 2em;
+    padding-left: 1em;
+    font-family: "Raleway",sans-serif;
+    font-size: x-large;
+    font-weight: bold;
+    width: 100%;
+}
+  
+tr:nth-child(odd){
+    background-color:#1a0f0f;
+}
+  
+.column {
+    float:left;
+    width: 35%;
+    box-sizing: border-box;
+    margin-left: auto;
+    margin-right: auto;
+}
+  
+.row {
+    display: flex;
+  flex-wrap: wrap;
+}
+
+table{
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}

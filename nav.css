@@ -1,0 +1,73 @@
+@import url(https://fonts.googleapis.com/css?family=Jaldi:400,700);
+@import url(http://fonts.googleapis.com/css?family=Lato:400,300,300italic,400italic,700,700italic,900);
+@import url('https://fonts.googleapis.com/css?family=Raleway:400,500,600,700,800,900');
+@import url(https://fonts.googleapis.com/css?family=Lato:400,300,700,900);
+@import url(https://fonts.googleapis.com/css?family=Work+Sans:200,300,500,700);
+
+
+.navbar {
+    border-top: 2px solid #d3d3d3;
+    overflow: hidden;
+    background-color: rgb(77, 77, 77);
+    font-family: "Raleway",sans-serif;
+}
+
+.navbar a {
+    float: left;
+    font-size: 1.0em;
+    color: #f88502;
+    text-align: center;
+    padding: 10px 24px;
+    text-decoration: none;
+    text-shadow: 1px 1px 2px rgb(0, 0, 0), 0 0 36px rgb(255, 166, 0), 0 0 8px rgb(139, 21, 0);
+}
+
+.dropdown {
+    float: left;
+    overflow: hidden;
+}
+
+.dropdown .dropbtn {
+    font-size: 1.0em;
+    border: none;
+    outline: none;
+    color: #f88502;
+    padding: 10px 24px;
+    background-color: inherit;
+    font-family: inherit;
+    margin:0;
+    text-shadow: 1px 1px 2px rgb(0, 0, 0), 0 0 36px rgb(255, 166, 0), 0 0 8px rgb(139, 21, 0);
+}
+
+  .navbar a:hover, .dropdown:hover .dropbtn {
+    color: #f08000;
+}
+  
+.dropdownc {
+    display: none;
+    position: absolute;
+    background-color: rgb(77, 77, 77);
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    border-width: 0px 2px 0 2px;
+    border-style: solid;
+    border-color: #d3d3d3;
+}
+  
+.dropdownc a {
+    float: none;
+    color: #fc9105;
+    padding: 10px 24px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdownc a:hover {
+    color: #00b0f0;
+  }
+
+.dropdown:hover .dropdownc {
+    display: block;
+}

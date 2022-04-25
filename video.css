@@ -1,0 +1,17 @@
+.hwrapper{
+    margin-top: 20px;
+    border-top: 2px solid #f7c7b1;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+
+.videowrapper{
+    background-color: #111111;
+}
+
+.video{
+    text-align: center; 
+}

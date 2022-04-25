@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <meta charset="utf-8">
+    <title>Hotel Menu</title>
+    <link rel="stylesheet" href="layout.css">
+    <link rel="icon" href="images/Hotel-logo.png">
+    <link rel="stylesheet" href="slider.css">
+    <link rel="stylesheet" href="nav.css">
+    <link rel="stylesheet" href="video.css">
+    <style>
+        h2 {
+          animation-name: example;
+          animation-duration: 4s ;
+          animation-iteration-count: infinite;
+          animation-direction: alternate;
+          animation-timing-function: linear;
+        }
+        
+        @keyframes example {
+        0%   {color:red;}
+        25%  {color:yellow;}
+        50%  {color:blue;}
+        75%  {color:green;}
+        100% {color:red;}
+        }
+        </style>
+    </head>
+    <body>
+            <div class="header">
+                <a href="Menu.html">
+                <img id="homepagelogo" src="images/Hotel-logo.png" alt="Hotel TARUC logo" height="110" width="210">
+                </a>
+                <p>Current Date and Time is <span id='date-time'></span>.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Admistrator</p>
+                <script>
+                    var dt = new Date();
+                    document.getElementById('date-time').innerHTML=dt;
+                </script> 
+                <div id="startyear">
+                    <p>Since 2022.</p>
+                </div>
+            </div>
+            <div class="navbar">
+                <a href="Menu.html">Menu</a>
+                <div class="dropdown">
+                    <button class="dropbtn">Hotel Information &#9660;
+                        <i class="fa fa-caret-down"></i>
+                    </button>
+                    <div class="dropdownc">
+                        <a href="Room.html">Room</a>
+                        <a href="Worker.html">Staff</a>
+                    </div>
+                </div>
+                <div class="dropdown">
+                    <button class="dropbtn">Services &#9660;
+                      <i class="fa fa-caret-down"></i>
+                    </button>
+                    <div class="dropdownc">
+                        <a href="BK.html">Booking</a>
+                        <a href="PM.html">Promotion</a>
+                    </div>
+                </div>
+                <a href="Help.html">Contact</a>
+            </div>
+    <hr>
+    <h2 style="font-family: Arial, Helvetica, sans-serif;padding-left: 350px; padding-top: 40px; padding-bottom: 30px; text-align: justify;">Still Worry can't Find A Hotel?<br>
+        Still Think About IT What Hotel Is The Best?<br>
+        Choose Our Hotel! We Have Guarannted 5 star From Ministry of Tourism<br>
+    </h2>
+        <section> 
+            <!--Responsive grids container-->
+            <div class="rt-container">
+                <!--Responsive grids-->
+                <div class="col-rt-12">
+                    <!--Slider-->
+                    <div id="slider">
+                        <!--Slides-->
+                        <div class="slides">
+                        <div class="slider">
+                            <!--Product image-->
+                            <div class="image"> <img src="images/slider1.jpg"> </div>
+                        </div>
+                        <div class="slider">
+                            <!--Product image-->
+                            <div class="image"> <img src="images/slider2.jpg"> </div>
+                        </div>
+                        <div class="slider">
+                            <!--Product image-->
+                            <div class="image"> <img src="images/slider3.jpg"> </div>
+                        </div>
+                        <div class="slider">
+                            <!--Product image-->
+                            <div class="image"> <img src="images/slider4.jpg"> </div>
+                        </div>
+                        </div>
+                    </div> 
+                </div> 
+            </div>    
+        </section>
+        <div class="hwrapper">
+                <!--Video Wrapper-->
+                <div class="videowrapper">
+                    <!--Video player-->
+                    <div class="video">
+                        <!--Video styling-->
+                        <video width="1200" height="" autoplay muted loop>
+                            <!--Video source-->
+                            <source src="video/Nihi Sumba - The wild side of luxury.mp4" type="video/mp4">
+                        </video>
+                    </div>
+                </div>
+            </div>
+    </body>
+    <hr>
+        <div id="footerwrapper">
+            <div class="footer">
+                <a href="https://www.youtube.com/user/LuxuryExplorer" style="text-decoration: none ;" ><p>Video Provided By : LuxuryExplorer</p></a>
+                <p>©Hotel TARUC. All Rights Reserved.</p>
+                <hr>
+                <div class="frow2">
+                    <ul>
+                        <li><a href="https://www.facebook.com"><img src="images/logo-image1.png" width="3%" height="31px"></a></li>
+                        <li><a href="https://www.whatsapp.com"><img src="images/logo-image2.jpg" width="3%"></a></li>
+                        <li><a href="https://www.instagram.com"><img src="images/logo-image3.jpg" width="3%"></a></li>
+                        <li><a href="https://www.twitter.com"><img src="images/logo-image4.png" width="3%"></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+</html>

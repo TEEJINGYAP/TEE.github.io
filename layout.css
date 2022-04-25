@@ -1,0 +1,140 @@
+*{ 
+margin:0;padding:0;
+box-sizing: border-box;
+scrollbar-color: transparent transparent;
+scrollbar-width: 0px;
+}
+
+.header {
+    margin-top: 2px;
+    padding-top: 2px;
+    overflow: hidden;
+    background-color: #fefefe;
+    height: 120px;
+    padding-bottom: 10px;
+    margin-bottom: 3px;
+}
+
+.header a{
+    float: left;
+    padding-left: 10px;
+    padding-top: 8px;
+}
+
+#homepagelogo{
+    padding-left: 10px;
+}
+
+#startyear {
+    float: right;
+    padding-right: 10px;
+    padding-top: 45px;
+    font-size: 0.6em;
+    font-family: Verdana, Arial, sans-serif;
+    font-weight: lighter;
+    color: #1403fa;
+    text-align: center;
+}
+
+#wrapper{
+    background-color: #1e1e1e;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+    background-image: url('images/background.jpg');
+    background-size: cover;
+  }
+
+  ul{
+    margin-left: 200px;
+    margin-right: 200px;
+    padding-left: 20pc;
+}
+
+
+ul a:visited{
+    color: rgb(5, 9, 252);
+}
+
+ul a:hover {
+    color: hotpink;
+}
+
+
+#footerwrapper {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #000000;
+    box-shadow: 3px 3px 3px #ff0000;
+}
+
+.footer {
+    padding-top: 15px;
+    background-color: #ffffff;
+    border-top: 2px solid #000000;
+    text-align: center;
+}
+
+.footer p{
+    padding-top: .5em;
+    font-size: 1.0em;
+    font-style: italic;
+    text-align: center;
+    color: #080202a7;
+    padding-bottom: .5em;
+}
+
+hr{
+    height: 2px;
+    width: 100%;
+    color: #ffffff;
+    background-color: #afafaf;
+    border: none;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.frow1 ul{
+    text-decoration: none;
+    text-align: center;
+    padding-left:0px;
+    list-style: none;
+}
+
+.frow1 li{
+    display: inline;
+    padding-left: 0px;
+    list-style: none;
+}
+
+.frow1 li img{
+    filter: grayscale(100%);
+    padding-left:0;
+}
+
+.icon1{
+    padding-right: 30px;
+}
+  
+.icon2{
+    padding-right: 30px;
+}
+  
+.frow2{
+    padding-top: 10px;
+    padding-left: 1px;
+}
+  
+.frow2 ul{
+    padding-left: 0px;
+    text-decoration: none;
+    text-align: center;
+}
+  
+.frow2 li{
+    display: inline;
+    padding-left: 5px;
+    list-style: none;
+}

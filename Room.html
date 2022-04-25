@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Room List</title>
+    <link rel="stylesheet" href="layout.css">
+    <link rel="stylesheet" href="nav.css">
+    <link rel="icon" href="images/Hotel-logo.png">
+</head>
+<body>
+    <div class="header">
+        <a href="Menu.html">
+        <img id="homepagelogo" src="images/Hotel-logo.png" alt="Hotel TARUC logo" height="110" width="210">
+        </a>
+        <p>Current Date and Time is <span id='date-time'></span>.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Admistrator</p>
+        <script>
+            var dt = new Date();
+            document.getElementById('date-time').innerHTML=dt;
+        </script> 
+        <div id="startyear">
+            <p>Since 2022.</p>
+        </div>
+    </div>
+    <div class="navbar">
+        <a href="Menu.html">Menu</a>
+        <div class="dropdown">
+            <button class="dropbtn">Hotel Information &#9660;
+                <i class="fa fa-caret-down"></i>
+            </button>
+            <div class="dropdownc">
+                <a href="Room.html">Room</a>
+                <a href="Worker.html">Staff</a>
+            </div>
+        </div>
+        <div class="dropdown">
+            <button class="dropbtn">Services &#9660;
+              <i class="fa fa-caret-down"></i>
+            </button>
+            <div class="dropdownc">
+                <a href="BK.html">Booking</a>
+                <a href="PM.html">Promotion</a>
+            </div>
+        </div>
+        <a href="Help.html">Contact</a>
+    </div>
+<hr>
+    <h1 style="text-align: center;padding-top: 2pc;padding-bottom: 2pc; background-color: #fff300; font-family: Arial, Helvetica, sans-serif; text-shadow: 5px 3px 4px hotpink ;" >Room Listing</h1>
+    <hr>
+    <h2 style="text-align: center;padding-top: 1pc;padding-bottom: 1pc;color: hotpink;">Our TARUC Own 5 Different Room,Each Type Of Room Contain Different Feuture And Different Price Click Room Information To Get More Futher Information.</h2>
+    <hr>
+    <ul>
+        <h3>
+        <li>Click here for Deluxe Room information:<a href="Deluxe.html" style="text-decoration: none;" >> Deluxe Room</a></li><br>
+        <img src="images/Deluxe.png" width="300" height="200" alt="Deluxe Room">
+        <li>Click here for Economic Room information:<a href="Economic.html" style="text-decoration: none;">> Economic Room</a></li>
+        <img src="images/Economic.png" width="300" height="200" alt="Economic Room">
+        <li>Click here for Family package Room information:<a href="Family_package.html" style="text-decoration: none;"> >Family package Room</a></li><br>
+        <img src="images/Family.png" width="300" height="200" alt="Family package Room">
+        <li>Click here for VIP Room information:<a href="VIP.html" style="text-decoration: none;"> >VIP Room</a></li><br>
+        <img src="images/VIP.png" width="300" height="200"  alt="VIP Room">
+        <li>Click here for Standart Room information:<a href="Standart.html" style="text-decoration: none;"> >Standard Room</a></li><br>
+        <img src="images/Standart.png" width="300" height="200" alt="Standard Room">
+        </h3>
+    </ul>
+</body>
+<hr>
+<div id="footerwrapper">
+    <div class="footer">
+        <p>©Hotel TARUC. All Rights Reserved.</p>
+        <hr>
+        <div class="frow2">
+            <ul>
+                <li><a href="https://www.facebook.com"><img src="images/logo-image1.png" width="3%" height="31px"></a></li>
+                <li><a href="https://www.whatsapp.com"><img src="images/logo-image2.jpg" width="3%"></a></li>
+                <li><a href="https://www.instagram.com"><img src="images/logo-image3.jpg" width="3%"></a></li>
+                <li><a href="https://www.twitter.com"><img src="images/logo-image4.png" width="3%"></a></li>
+            </ul>
+        </div>
+    </div>
+</div>
+</body>
+</html>
